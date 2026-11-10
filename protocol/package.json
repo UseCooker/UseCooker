@@ -1,0 +1,16 @@
+{
+  "name": "cooker-protocol",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "splits": "tsx splits.ts",
+    "check": "tsx check-attach.ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
