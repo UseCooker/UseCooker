@@ -131,7 +131,7 @@ Point the coin’s creator-fee recipient / share config at the COOKER treasury. 
 ```
 ┌─────────────────────────────────────────────────────────┐
 │  Fee recipient (treasury)                               │
-│  CookVpYzGqmvgufucVEyExZnPY5hULRHYE5qtcQAD8DH           │
+│  CookXaMAvFhXzAP4gRL43VgSn4e3pFapUki31NSQgu3t           │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -146,7 +146,7 @@ npx tsx protocol/check-attach.ts <MINT>
 import { PublicKey } from "@solana/web3.js"
 
 export const COOKER_TREASURY = new PublicKey(
-  "CookVpYzGqmvgufucVEyExZnPY5hULRHYE5qtcQAD8DH"
+  "CookXaMAvFhXzAP4gRL43VgSn4e3pFapUki31NSQgu3t"
 )
 
 export function describeAttach(opts: {
@@ -217,7 +217,7 @@ export const PROTOCOL = {
   site: "https://usecooker.xyz",
   x: "https://x.com/usecooker",
   /** On-chain fee recipient — safe to publish */
-  feeRecipient: "CookVpYzGqmvgufucVEyExZnPY5hULRHYE5qtcQAD8DH",
+  feeRecipient: "CookXaMAvFhXzAP4gRL43VgSn4e3pFapUki31NSQgu3t",
 } as const
 ```
 

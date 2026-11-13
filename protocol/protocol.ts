@@ -12,7 +12,7 @@ export const PROTOCOL = {
     github: "https://github.com/UseCooker/UseCooker",
   },
   /** On-chain fee recipient. Publish freely. */
-  feeRecipient: "CookVpYzGqmvgufucVEyExZnPY5hULRHYE5qtcQAD8DH",
+  feeRecipient: "CookXaMAvFhXzAP4gRL43VgSn4e3pFapUki31NSQgu3t",
 } as const
 
 export const FEE_SPLITS = {

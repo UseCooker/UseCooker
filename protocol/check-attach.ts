@@ -13,7 +13,7 @@
 
 import { Connection, PublicKey } from "@solana/web3.js"
 
-const DEFAULT_TREASURY = "CookVpYzGqmvgufucVEyExZnPY5hULRHYE5qtcQAD8DH"
+const DEFAULT_TREASURY = "CookXaMAvFhXzAP4gRL43VgSn4e3pFapUki31NSQgu3t"
 
 /** Public fee recipient — set `COOKER_FEE_RECIPIENT` when testing another wallet. */
 export function cookerTreasuryAddress() {

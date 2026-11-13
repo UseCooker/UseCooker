@@ -47,7 +47,7 @@ Coin has graduated to the AMM.
 Existing coins attach by pointing Pump fee-share / creator fee recipient at:
 
 ```
-CookVpYzGqmvgufucVEyExZnPY5hULRHYE5qtcQAD8DH
+CookXaMAvFhXzAP4gRL43VgSn4e3pFapUki31NSQgu3t
 ```
 
 Launches through usecooker.xyz set routing from creation.
